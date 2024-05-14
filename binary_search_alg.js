@@ -10,7 +10,7 @@ function binarySearch(list, element) {
         const value = list[middle];
 
         // Сравниваем аргумент со значением в середине массива
-        if (element == value) {
+        if (element === value) {
             return middle;
         }
 
